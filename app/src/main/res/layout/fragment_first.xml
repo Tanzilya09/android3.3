@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+    <EditText
+        android:id="@+id/et_passwordFirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rounder"
+        android:hint="Введите пароль"
+        android:padding="15dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="370dp"
+        android:backgroundTint="@color/black"
+        android:hint="Вход"
+        android:textColorHint="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+
+</FrameLayout>
